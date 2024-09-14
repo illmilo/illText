@@ -1,12 +1,12 @@
 #include <QApplication>
 
-#include "illtext.h"
+#include "editor.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // Main notepad window
-    illText window;
+    editor window;
     window.setWindowTitle("illText");
     window.show();
 
